@@ -1,0 +1,9 @@
+Comandos para execução
+
+1. python servidorTCP.py
+2. python clienteTCP.py
+3. python medirLatenciaTCP.py
+
+1. python servidorUDP.py
+2. python clienteUDP.py
+3. python medirLatenciaUDP.py
