@@ -1,0 +1,30 @@
+Comandos para aplicar cada arquivo YAML no cluster Kubernetes
+
+kubectl apply -f pod.yaml
+kubectl apply -f service.yml
+kubectl apply -f deployment.yml
+
+Comandos para verificar se os recursos foram criados com sucesso
+
+kubectl get pods
+kubectl get services
+kubectl get deployments
+
+Use o comando kubectl applypara implantar esses recursos no Kubernetes
+
+kubectl apply -f backend-deployment.yml
+kubectl apply -f backend-service.yml
+kubectl apply -f frontend-deployment.yml
+kubectl apply -f frontend-service.yml
+
+Comando usado para aplicar o HPA
+
+kubectl apply -f hpa.yml
+
+Comando usado para acompanhar o status do HPA
+
+kubectl get hpa
+
+Comando usado para iniciar o Kubernetes Dashboard
+
+minikube dashboard
